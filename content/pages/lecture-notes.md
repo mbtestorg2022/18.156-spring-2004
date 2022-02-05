@@ -6,30 +6,425 @@ uid: 42937c63-1618-c895-e0ab-347b09d3b810
 
 The lecture notes were prepared by two former students in the class. Zuoqin Wang prepared lecture notes 0 through 11 in LaTeX, and Yanir Rubinstein prepared lectures 12 through 24 in TeX. They used Professor Viaclovsky's handwritten notes in producing them.
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| 0 | Course Overview  {{< br >}}  {{< br >}}Examples of Harmonic Functions  {{< br >}}  {{< br >}}Fundamental Solutions for Laplacian and Heat Operator | ([PDF]({{< baseurl >}}/resources/lec0)) |
-| 1 | Harmonic Functions and Mean Value Theorem  {{< br >}}  {{< br >}}Maximum Principle and Uniqueness  {{< br >}}  {{< br >}}Harnack Inequality  {{< br >}}  {{< br >}}Derivative Estimates for Harmonic Functions  {{< br >}}  {{< br >}}Green's Representation Formula | ([PDF]({{< baseurl >}}/resources/lec1)) |
-| 2 | Definition of Green's Function for General Domains  {{< br >}}  {{< br >}}Green's Function for a Ball  {{< br >}}  {{< br >}}The Poisson Kernel and Poisson Integral  {{< br >}}  {{< br >}}Solution of Dirichlet Problem in Balls for Continuous Boundary Data  {{< br >}}  {{< br >}}Continuous + Mean Value Property <-> Harmonic | ([PDF]({{< baseurl >}}/resources/lec2)) |
-| 3 | Weak Solutions  {{< br >}}  {{< br >}}Further Properties of Green's Functions  {{< br >}}  {{< br >}}Weyl's Lemma: Regularity of Weakly Harmonic Functions | ([PDF]({{< baseurl >}}/resources/lec3)) |
-| 4 | A Removable Singularity Theorem  {{< br >}}  {{< br >}}Laplacian in General Coordinate Systems  {{< br >}}  {{< br >}}Asymptotic Expansions | ([PDF]({{< baseurl >}}/resources/lec4)) |
-| 5 | Kelvin Transform I: Direct Computation  {{< br >}}  {{< br >}}Harmonicity at Infinity, and Decay Rates of Harmonic Functions  {{< br >}}  {{< br >}}Kelvin II: Poission Integral Formula Proof  {{< br >}}  {{< br >}}Kelvin III: Conformal Geometry Proof | ([PDF]({{< baseurl >}}/resources/lec5)) |
-| 6 | Weak Maximum Princple for Linear Elliptic Operators  {{< br >}}  {{< br >}}Uniqueness of Solutions to Dirichlet Problem  {{< br >}}  {{< br >}}A Priori C^0 Estimates for Solutions to Lu = f, c leq 0  {{< br >}}  {{< br >}}Strong Maximum Principle | ([PDF]({{< baseurl >}}/resources/lec6)) |
-| 7 | Quasilinear Equations (Minimal Surface Equation)  {{< br >}}  {{< br >}}Fully Nonlinear Equations (Monge-Ampere Equation)  {{< br >}}  {{< br >}}Comparison Principle for Nonlinear Equations | ([PDF]({{< baseurl >}}/resources/lec7)) |
-| 8 | If Delta u in L^{infty}, then u in C^{1,alpha}, any 0 < alpha < 1  {{< br >}}  {{< br >}}If Delta u in L^{p}, p > n, then u in C^{1,alpha}, p = n/(1 - alpha) | ([PDF]({{< baseurl >}}/resources/lec8)) |
-| 9 | If Delta u in C^{alpha}, alpha > 0, then u in C^{2}  {{< br >}}  {{< br >}}Moreover, if alpha < 1, then u in C^{2,alpha} (Proof to be completed next lecture) | ([PDF]({{< baseurl >}}/resources/lec9)) |
-| 10 | Interior C^{2,alpha} Estimate for Newtonian Potential  {{< br >}}  {{< br >}}Interior C^{2,alpha} Estimates for Poisson's Equation  {{< br >}}  {{< br >}}Boundary Estimate on Newtonian Potential: C^{2,alpha} Estimate up to the Boundary for Domain with Flat Boundary Portion | ([PDF]({{< baseurl >}}/resources/lec10)) |
-| 11 | Schwartz Reflection Reviewed  {{< br >}}  {{< br >}}Green's Function for Upper Half Space Reviewed  {{< br >}}  {{< br >}}C^{2,alpha} Boundary Estimate for Poisson's Equation for Flat Boundary Portion  {{< br >}}  {{< br >}}Global C^{2,alpha} Estimate for Poisson's Equation in a Ball for Zero Boundary Data  {{< br >}}  {{< br >}}C^{2,alpha} Regularity of Dirichlet Problem in a Ball for C^{2,alpha} Boundary Data | ([PDF]({{< baseurl >}}/resources/lec11)) |
-| 12 | Global C^{2,alpha} Solution of Poisson's Equation Delta u = f in C^{alpha}, for C^{2,alpha} Boundary Values in Balls  {{< br >}}  {{< br >}}Constant Coefficient Operators  {{< br >}}  {{< br >}}Interpolation between Hölder Norms | ([PDF]({{< baseurl >}}/resources/da1)) |
-| 13 | Interior Schauder Estimate | ([PDF]({{< baseurl >}}/resources/da2)) |
-| 14 | Global Schauder Estimate  {{< br >}}  {{< br >}}Banach Spaces and Contraction Mapping Principle | ([PDF]({{< baseurl >}}/resources/da3)) |
-| 15 | Continuity Method  {{< br >}}  {{< br >}}Can Solve Dirichlet Problem for General L Provided can Solve for Laplacian  {{< br >}}  {{< br >}}Corollary: Solution of C^{2, alpha} Dirichlet Problem in Balls for General L  {{< br >}}  {{< br >}}Solution of Dirichlet Problem in C^{2,alpha} for Continuous Boundary Values, in Balls | ([PDF]({{< baseurl >}}/resources/da4)) |
-| 16 | Elliptic Regularity: If f and Coefficients of L in C^{k,alpha}, Lu = f, then u in C^{k+2,alpha}  {{< br >}}  {{< br >}}C^{2,alpha} Regularity up to the Boundary | ([PDF]({{< baseurl >}}/resources/da5)) |
-| 17 | C^{k,alpha} Regularity up to the Boundary  {{< br >}}  {{< br >}}Hilbert Spaces and Riesz Representation Theorem  {{< br >}}  {{< br >}}Weak Solution of Dirichlet Problem for Laplacian in W^{1,2}\_0  {{< br >}}  {{< br >}}Weak Derivatives  {{< br >}}  {{< br >}}Sobolev Spaces | ([PDF]({{< baseurl >}}/resources/da6)) |
-| 18 | Sobolev Imbedding Theorem p < n  {{< br >}}  {{< br >}}Morrey's Inequality | ([PDF]({{< baseurl >}}/resources/da7)) |
-| 19 | Sobolev Imbedding for p > n, Hölder Continuity  {{< br >}}  {{< br >}}Kondrachov Compactness Theorem  {{< br >}}  {{< br >}}Characterization of W^{1,p} in Terms of Difference Quotients | ([PDF]({{< baseurl >}}/resources/da8)) |
-| 20 | Characterization of W^{1,p} in Terms of Difference Quotients (cont.)  {{< br >}}  {{< br >}}Interior W^{2,2} Estimates for W^{1,2}\_0 Solutions of Lu = f in L^2 | ([PDF]({{< baseurl >}}/resources/da9)) |
-| 21 | Interior W^{k+2,2} Estimates for Solutions of Lu = f in W^{k,2}  {{< br >}}  {{< br >}}Global (up to the Boundary) W^{k+2,2} Estimates for Solutions of Lu = f in W^{k,2} | ([PDF]({{< baseurl >}}/resources/da10)) |
-| 22 | Weak L^2 Maximum Principle  {{< br >}}  {{< br >}}Global a priori W^{k+2,2} Estimate for Lu = f, f in W^{k,2}, c(x) leq 0 | ([PDF]({{< baseurl >}}/resources/da11)) |
-| 23 | Cube Decomposition  {{< br >}}  {{< br >}}Marcinkiewicz Interpolation Theorem  {{< br >}}  {{< br >}}L^p Estimate for the Newtonian Potential  {{< br >}}  {{< br >}}W^{1,p} Estimate for N.P.  {{< br >}}  {{< br >}}W^{2,2} Estimate for N.P. | ([PDF]({{< baseurl >}}/resources/da12)) |
-| 24 | W^{2,p} Estimate for N.P., 1 < p < infty  {{< br >}}  {{< br >}}W^{2,p} Estimate for Operators L with Continuous Leading Order Coefficients | ([PDF]({{< baseurl >}}/resources/da13andlast))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+Course Overview  
+  
+Examples of Harmonic Functions  
+  
+Fundamental Solutions for Laplacian and Heat Operator
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec0))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Harmonic Functions and Mean Value Theorem  
+  
+Maximum Principle and Uniqueness  
+  
+Harnack Inequality  
+  
+Derivative Estimates for Harmonic Functions  
+  
+Green's Representation Formula
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec1))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Definition of Green's Function for General Domains  
+  
+Green's Function for a Ball  
+  
+The Poisson Kernel and Poisson Integral  
+  
+Solution of Dirichlet Problem in Balls for Continuous Boundary Data  
+  
+Continuous + Mean Value Property \<-> Harmonic
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec2))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Weak Solutions  
+  
+Further Properties of Green's Functions  
+  
+Weyl's Lemma: Regularity of Weakly Harmonic Functions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec3))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+A Removable Singularity Theorem  
+  
+Laplacian in General Coordinate Systems  
+  
+Asymptotic Expansions
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec4))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Kelvin Transform I: Direct Computation  
+  
+Harmonicity at Infinity, and Decay Rates of Harmonic Functions  
+  
+Kelvin II: Poission Integral Formula Proof  
+  
+Kelvin III: Conformal Geometry Proof
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec5))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Weak Maximum Princple for Linear Elliptic Operators  
+  
+Uniqueness of Solutions to Dirichlet Problem  
+  
+A Priori C^0 Estimates for Solutions to Lu = f, c leq 0  
+  
+Strong Maximum Principle
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec6))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Quasilinear Equations (Minimal Surface Equation)  
+  
+Fully Nonlinear Equations (Monge-Ampere Equation)  
+  
+Comparison Principle for Nonlinear Equations
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec7))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+If Delta u in L^{infty}, then u in C^{1,alpha}, any 0 \< alpha \< 1  
+  
+If Delta u in L^{p}, p > n, then u in C^{1,alpha}, p = n/(1 - alpha)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec8))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+If Delta u in C^{alpha}, alpha > 0, then u in C^{2}  
+  
+Moreover, if alpha \< 1, then u in C^{2,alpha} (Proof to be completed next lecture)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec9))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Interior C^{2,alpha} Estimate for Newtonian Potential  
+  
+Interior C^{2,alpha} Estimates for Poisson's Equation  
+  
+Boundary Estimate on Newtonian Potential: C^{2,alpha} Estimate up to the Boundary for Domain with Flat Boundary Portion
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Schwartz Reflection Reviewed  
+  
+Green's Function for Upper Half Space Reviewed  
+  
+C^{2,alpha} Boundary Estimate for Poisson's Equation for Flat Boundary Portion  
+  
+Global C^{2,alpha} Estimate for Poisson's Equation in a Ball for Zero Boundary Data  
+  
+C^{2,alpha} Regularity of Dirichlet Problem in a Ball for C^{2,alpha} Boundary Data
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Global C^{2,alpha} Solution of Poisson's Equation Delta u = f in C^{alpha}, for C^{2,alpha} Boundary Values in Balls  
+  
+Constant Coefficient Operators  
+  
+Interpolation between Hölder Norms
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da1))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Interior Schauder Estimate
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da2))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Global Schauder Estimate  
+  
+Banach Spaces and Contraction Mapping Principle
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da3))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Continuity Method  
+  
+Can Solve Dirichlet Problem for General L Provided can Solve for Laplacian  
+  
+Corollary: Solution of C^{2, alpha} Dirichlet Problem in Balls for General L  
+  
+Solution of Dirichlet Problem in C^{2,alpha} for Continuous Boundary Values, in Balls
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da4))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Elliptic Regularity: If f and Coefficients of L in C^{k,alpha}, Lu = f, then u in C^{k+2,alpha}  
+  
+C^{2,alpha} Regularity up to the Boundary
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da5))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+C^{k,alpha} Regularity up to the Boundary  
+  
+Hilbert Spaces and Riesz Representation Theorem  
+  
+Weak Solution of Dirichlet Problem for Laplacian in W^{1,2}\_0  
+  
+Weak Derivatives  
+  
+Sobolev Spaces
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da6))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Sobolev Imbedding Theorem p \< n  
+  
+Morrey's Inequality
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da7))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Sobolev Imbedding for p > n, Hölder Continuity  
+  
+Kondrachov Compactness Theorem  
+  
+Characterization of W^{1,p} in Terms of Difference Quotients
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da8))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Characterization of W^{1,p} in Terms of Difference Quotients (cont.)  
+  
+Interior W^{2,2} Estimates for W^{1,2}\_0 Solutions of Lu = f in L^2
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da9))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Interior W^{k+2,2} Estimates for Solutions of Lu = f in W^{k,2}  
+  
+Global (up to the Boundary) W^{k+2,2} Estimates for Solutions of Lu = f in W^{k,2}
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Weak L^2 Maximum Principle  
+  
+Global a priori W^{k+2,2} Estimate for Lu = f, f in W^{k,2}, c(x) leq 0
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Cube Decomposition  
+  
+Marcinkiewicz Interpolation Theorem  
+  
+L^p Estimate for the Newtonian Potential  
+  
+W^{1,p} Estimate for N.P.  
+  
+W^{2,2} Estimate for N.P.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+W^{2,p} Estimate for N.P., 1 \< p \< infty  
+  
+W^{2,p} Estimate for Operators L with Continuous Leading Order Coefficients
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/da13andlast))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
