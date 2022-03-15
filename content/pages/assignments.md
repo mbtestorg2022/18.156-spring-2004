@@ -10,7 +10,36 @@ Jost, Jurgen. _Partial Differential Equations._ New York: Springer-Verlag, 2002.
 
 Gilbarg, David, and Neil Trudinger. _Elliptic Partial Differential Equations of Second Order._ 2nd ed. Berlin: Springer-Verlag, 1983.
 
-| LEC # | ASSIGNMENTS |
-| --- | --- |
-| 6 | Homework 1 - Jost Chapter 1: 1, 4, 5, 7, 8, 9 |
-| 11 | Homework 2 - Gilbarg-Trudinger Chapter 4: 4.5, 4.9
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+ASSIGNMENTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 - Jost Chapter 1: 1, 4, 5, 7, 8, 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 - Gilbarg-Trudinger Chapter 4: 4.5, 4.9
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
