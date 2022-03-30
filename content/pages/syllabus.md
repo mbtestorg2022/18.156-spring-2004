@@ -16,7 +16,7 @@ The main goal of this course is to give the students a solid foundation in the t
 
 Lu = f, or
 
-![](/courses/mathematics/18-156-differential-analysis-spring-2004/syllabus/equation.jpg)
+{{< resource "b378fc13-b341-5685-6141-8c2c7af68856" >}}
 
 where L is a linear second order elliptic operator, then when does C^{alpha} regularity of f imply C^{2,alpha} regularity of u?
 

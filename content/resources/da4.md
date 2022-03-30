@@ -8,6 +8,7 @@ description: 'Lecture topics:
   Values, in Balls.'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-156-differential-analysis-spring-2004/23ec7373e584754f3ddf0157ac29d664_da4.pdf
 file_type: application/pdf
+parent_uid: 42937c63-1618-c895-e0ab-347b09d3b810
 resourcetype: Document
 title: da4.pdf
 uid: 23ec7373-e584-754f-3ddf-0157ac29d664
